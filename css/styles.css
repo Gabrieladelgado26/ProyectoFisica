@@ -7648,7 +7648,7 @@ textarea.form-control-lg {
 }
 
 .mb-0 {
-  margin-bottom: 0 !important;
+  margin-bottom: 1 !important;
 }
 
 .mb-1 {
@@ -11044,3 +11044,4 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
