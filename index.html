@@ -58,7 +58,8 @@
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Introducción a la fisica</h2>
+
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">conceptos basicos</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -137,8 +138,8 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">La física es una ciencia natural que estudia cómo opera el universo. Busca describir la función de las cosas.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">Por ejemplo, cómo se mueven los objetos, por qué las cosas caen, cómo se propaga el sonido, qué es la luz, entre otras.</p></div>
+                    <div class="col-lg-4 ms-auto text-center"><p class="lead">La física es una ciencia natural que estudia cómo opera el universo. Busca describir la función de las cosas.</p></div>
+                    <div class="col-lg-4 me-auto text-center"><p class="lead">Por ejemplo, cómo se mueven los objetos, por qué las cosas caen, cómo se propaga el sonido, qué es la luz, entre otras.</p></div>
                     </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
@@ -174,31 +175,24 @@
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
+                          <div class="textoFisica text-center">
+                                <p>
+                                    La física aplicada es la rama de la física que se enfoca en la aplicación de los principios y leyes físicas en la resolución de problemas prácticos.
+                                    Esta disciplina se basa en los fundamentos teóricos de la física y busca desarrollar soluciones concretas para diversos campos y sectores. 
+                                </p>
+                                <p>
+                                    Desde la ingeniería y la tecnología hasta la medicina y la energía, la física aplicada nos permite comprender y aprovechar las leyes naturales del universo para mejorar nuestra vida cotidiana y abordar desafíos complejos. 
+                                    Explora esta fascinante área de estudio y descubre cómo la física aplicada impulsa la innovación y la mejora en numerosos campos de la ciencia y la tecnología.
+                                </p> 
+                               
+                                <p class="siguiente font-weight-light mb-0 ">A continuación se presenta un link a un video didactico donde explica mejor la fisica aplicada </p>
+                                <a class="SegundoBoton btn-xl btn-outline-light" href="https://www.youtube.com/watch?v=4MXjzDfLctc">
+                                    <i class="fas fa-download me-2"></i>
+                                    Click
+                                </a>
+
+                          </div>  
+                            
                             <!-- Submit success message-->
                             <!---->
                             <!-- This is what your users will see when the form-->
@@ -217,7 +211,7 @@
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+
                         </form>
                     </div>
                 </div>

@@ -490,6 +490,8 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  
+  
 }
 
 .display-1 {
@@ -668,14 +670,29 @@ progress {
   }
 }
 .row {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 5rem;
   --bs-gutter-y: 0;
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  
+}
+
+.textoFisica {
+
+  --bs-gutter-x: 20rem;
+  --bs-gutter-y: 0;
+  
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
+
 .row > * {
   flex-shrink: 0;
   width: 100%;
@@ -683,6 +700,7 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
+  
 }
 
 .col {
@@ -7600,11 +7618,17 @@ textarea.form-control-lg {
 }
 
 .mt-2 {
-  margin-top: 0.5rem !important;
+  margin-top: -2rem !important;
 }
 
 .mt-3 {
   margin-top: 1rem !important;
+}
+
+.textoFisica .segundoBoton{
+  
+    margin-top: 0rem !important;
+  
 }
 
 .mt-4 {
@@ -7701,6 +7725,7 @@ textarea.form-control-lg {
 
 .ms-auto {
   margin-left: auto !important;
+  
 }
 
 .p-0 {
@@ -10876,6 +10901,10 @@ html {
   color: #fff;
 }
 
+.segundoBoton {
+
+}
+
 .btn-xl {
   padding: 1rem 1.75rem;
   font-size: 1.25rem;
@@ -10975,6 +11004,12 @@ html {
   font-size: 2.75rem;
   line-height: 2.75rem;
 }
+
+.textoFisica .siguiente{
+  font-size: 0.99rem;
+  
+}
+
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
